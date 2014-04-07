@@ -1,0 +1,42 @@
+{
+  "name": "winston-sherlock",
+  "description": "A sherlock transport for winston.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nvh/winston-sherlock",
+  "author": {
+    "name": "Niels van Hoorn",
+    "email": "nvh@nvh.io",
+    "url": "http://zekerwaar.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nvh/winston-sherlock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nvh/winston-sherlock/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nvh/winston-sherlock/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/winston-sherlock",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-coffee": "~0.10.1"
+  },
+  "keywords": [
+    "winston",
+    "sherlock",
+    "logging",
+    "console"
+  ],
+  "dependencies": {
+    "sherlock": "~1.1.0",
+    "winston": "~0.7.3"
+  }
+}

@@ -20,7 +20,7 @@ class Sherlock extends winston.Transport
 
   log: (level, msg, meta, callback) ->
     filename = @getCallingFileName() || meta?.__filename?.replace(__dirname + '/','').replace('.coffee','')
-    name = filename.replace('/',':','g')
+    name = filename?.replace('/',':','g')
     delete meta['__filename']
     name ?= 'unknown'
     debug = sherlock("#{@type}:#{level}:#{name}")

@@ -1,7 +1,7 @@
 {
   "name": "winston-sherlock",
   "description": "A sherlock transport for winston.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/nvh/winston-sherlock",
   "author": {
     "name": "Niels van Hoorn",
